@@ -1,0 +1,89 @@
+form #forgot-password label {
+margin-bottom: 20px;
+}
+
+
+
+.error {
+color: red;
+}
+
+.message {
+font-size: 24px;
+}
+
+
+
+.search-select, select {
+border: none;
+border-bottom: 1px solid #c9c9c9;
+border-right: 1px solid #d9d9d9;
+border-left: 1px solid #d9d9d9;
+font-family: proxima-nova,sans-serif;
+font-size: 18px;
+padding: 0 0 0 5px;
+}
+
+.listing-add-input {
+font-family: proxima-nova,sans-serif;
+}
+
+option {
+padding-right: 15px;
+}
+
+#main.s-home {
+/*top: 243px !important;*/
+top: 325px !important;
+}
+
+#tag-line {
+left: 330px !important;
+width: 620px !important;
+top: -20px !important;
+}
+
+
+button, #search_form input[type="submit"] {
+border: none;
+padding: 7px 10px;
+border-bottom: 1px solid #c9c9c9;
+border-right: 1px solid #d9d9d9;
+border-left: 1px solid #d9d9d9;
+background: white;
+padding-bottom: 3px;
+color: black;
+}
+
+#search_form input[type="submit"]:hover {
+background-color: #F90040;
+color: white;
+}
+
+input[type="submit"] {
+padding: 8px 10px;
+padding-bottom: 4px;
+background-color:#CACACA;
+border-bottom: 1px solid #a9a9a9;
+border-right: 1px solid #c9c9c9;
+border-left: 1px solid #c9c9c9;
+color:  #656565;
+}
+
+ input[type="submit"]:hover {
+background: #656565;
+color: white;
+border-top: 1px solid #c9c9c9;
+}
+
+p.tooltip {
+background:white;
+padding: 10px;
+position: absolute;
+top: 110px;
+display: none;
+}
+
+#main.review {
+top: -200px;
+}

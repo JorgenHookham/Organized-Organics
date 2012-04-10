@@ -1,0 +1,179 @@
+a,
+a:link,
+a:visited,
+a:active { 
+color: #f90040; 
+text-decoration: none; }
+
+body { 
+background: url(../img/bg.jpg); }
+
+#container { 
+width: 940px; 
+margin: 0 auto; 
+padding: 0 10px; 
+position: relative; }
+
+#sidebar { 
+position: absolute;
+width: 220px; 
+left: 10px; }
+
+#main { 
+position: absolute;
+width: 620px; 
+left: 330px; 
+top: 80px; }
+
+#main.s-home { 
+top: 285px; }
+
+#branding { 
+margin-top: 0; }
+
+#branding a { 
+width: 226px; 
+height: 272px; 
+background: url(../img/logo.png) -4px 0; 
+text-indent: -999em; 
+display: block; }
+
+#tag-line { 
+display: block; 
+height: 145px; 
+width: 700px; 
+padding: 65px 0; 
+position: absolute; 
+left: 250px; 
+top: 0; 
+font-size: 37px; }
+
+#search { 
+font-weight: normal; 
+font-size: 25px; 
+margin-top: 0; }
+
+.search-select { 
+margin-top: -2px; }
+
+.search-submit { 
+font-size: 15px; }
+
+#utility-nav { 
+margin-top: -35px; 
+margin-bottom: 35px; }
+
+#edit-listing-link { 
+margin-left: 43px; }
+
+#listing-map { 
+width: 300px; 
+height: 300px; 
+float: left; 
+margin-right: 20px; }
+
+#listing-title { 
+margin-top: 0; }
+
+#listing-streetaddress { 
+margin-bottom: 15px; }
+
+#listing-meta { 
+overflow: hidden; }
+
+#listing-categories { 
+float: left; 
+max-width: 160px; }
+
+.listing-category-icon { 
+margin-right: 5px; }
+
+#listing-rating { 
+float: right; }
+
+.listing-add-form { 
+margin-bottom: 45px; }
+
+.listing-add-label { 
+width:325px; 
+position: relative; 
+margin-bottom: 15px; 
+display: block; 
+height: 30px; 
+line-height: 30px; }
+
+.listing-add-label-textarea { 
+height:135px; }
+
+.listing-add-input { 
+position: absolute; 
+left: 100px; }
+
+#listing-cuisine-inputs,
+#listing-stock-inputs { 
+overflow: hidden; 
+margin-bottom: 15px; }
+
+.listing-checkbox { 
+margin-right: 10px; }
+
+.listing-checkbox-label { 
+display: block; 
+float: left; 
+width: 140px; 
+margin-right: 20px; 
+margin-bottom: 10px; }
+
+.listing-checkbox-label:nth-child(4n + 1) { 
+margin-right: 0; }
+
+.listing-add-input-textarea { 
+height: 125px; }
+
+#listing-delete-link { 
+margin-left: 64px; }
+
+::-webkit-input-placeholder { 
+color: #656565; }
+
+input, textarea { 
+outline: none; }
+
+input[type="text"]:-moz-placeholder,
+input[type="email"]:-moz-placeholder,
+input[type="password"]:-moz-placeholder,
+input[type="phone"]:-moz-placeholder { 
+color: #656565; }
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="phone"], 
+textarea { 
+background: #cacaca; 
+border-radius: 12px; 
+border: none; 
+box-shadow: 0 1px 1px #fff, inset 0 1px 1px rgba(0, 0, 0, 0.3); 
+width: 210px; 
+color: #656565; 
+padding: 5px; 
+margin-bottom: 10px; 
+-webkit-transition: background .15s linear; 
+-moz-transition: background .15s linear; 
+transition: background .15s linear; }
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="phone"] { 
+height: 20px; }
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="phone"]:focus, 
+textarea:focus { 
+background: #fff; }
+
+.s-hidden { 
+display: none; }
